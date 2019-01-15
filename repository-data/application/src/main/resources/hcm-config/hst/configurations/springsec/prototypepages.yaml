@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/springsec/hst:prototypepages:
+      jcr:primaryType: hst:pages

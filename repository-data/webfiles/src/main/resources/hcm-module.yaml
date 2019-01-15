@@ -1,0 +1,5 @@
+group: 
+  name: springsec
+  after: hippo-cms
+project: springsec
+module: springsec-repository-data-webfiles

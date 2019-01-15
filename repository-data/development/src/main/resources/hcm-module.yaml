@@ -1,0 +1,7 @@
+group: 
+  name: springsec
+  after: hippo-cms
+project: springsec
+module: 
+  name: springsec-repository-data-development
+  after: springsec-repository-data-application
