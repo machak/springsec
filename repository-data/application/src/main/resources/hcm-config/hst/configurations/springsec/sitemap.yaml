@@ -20,6 +20,8 @@ definitions:
         hst:componentconfigurationid: hst:pages/eventslist
         hst:pagetitle: List of Events
         hst:relativecontentpath: events
+        hst:roles: [admin]
+        hst:authenticated: true
         /_any_.html:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/eventspage

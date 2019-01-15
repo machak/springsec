@@ -4,6 +4,9 @@
   <display-name>springsec site</display-name>
   <description>springsec site</description>
 
+  <session-config>
+    <tracking-mode>COOKIE</tracking-mode>
+  </session-config>
   <jsp-config>
     <jsp-property-group>
       <url-pattern>*.jsp</url-pattern>
