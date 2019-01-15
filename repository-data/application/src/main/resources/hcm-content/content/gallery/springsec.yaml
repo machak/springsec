@@ -1,7 +1,7 @@
 /content/gallery/springsec:
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 3e0502bc-b0d8-455f-9fdd-09b837fbc6ee
   hippo:name: springsec
   hippostd:foldertype: [new-image-folder]
   hippostd:gallerytype: ['hippogallery:imageset']
-

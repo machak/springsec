@@ -1,6 +1,8 @@
 /content/documents/springsec:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 9bce8de6-363c-4081-b63d-c9f711458ae2
   hippo:name: springsec
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814

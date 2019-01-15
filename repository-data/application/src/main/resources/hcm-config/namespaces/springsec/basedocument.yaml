@@ -3,9 +3,11 @@ definitions:
     /hippo:namespaces/springsec/basedocument:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2f667790-ed36-4ad3-8f62-d5cd07a134a2
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3be8d83f-395c-4260-b1b6-524f1f3d0acf
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel']

@@ -1,0 +1,25 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:templates/nl:
+      jcr:primaryType: hipposys:resourcebundle
+      new-resource-bundle: nieuwe resource bundle
+      new-untranslated-folder: nieuwe onvertaalde map
+      new-events-folder: nieuwe evenementenmap
+      new-events-document: nieuw evenement
+    /hippo:configuration/hippo:translations/hippo:templates/de:
+      jcr:primaryType: hipposys:resourcebundle
+      new-resource-bundle: Neues Resource-Bundle
+      new-untranslated-folder: Neuer nicht übersetzter Ordner
+      new-events-folder: Neuer Events-Ordner
+      new-events-document: Neues Event
+    /hippo:configuration/hippo:translations/hippo:templates/fr:
+      jcr:primaryType: hipposys:resourcebundle
+      new-resource-bundle: nouveau resource bundle
+      new-untranslated-folder: nouveau dossier non traduit
+      new-events-folder: nouveau dossier événements
+      new-events-document: nouvel événement
+    /hippo:configuration/hippo:translations/hippo:templates/en:
+      new-resource-bundle: new resource bundle
+      new-untranslated-folder: new untranslated folder
+      new-events-folder: new events folder
+      new-events-document: new event

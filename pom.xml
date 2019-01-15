@@ -22,22 +22,20 @@
     DO NOT remove these tags but instead fill them in appropriately as needed, 
     UNLESS the inherited values are valid for your project.
   -->
-  <url/>
-  <inceptionYear/>
-  <organization/>
+  <organization />
   <licenses>
-    <license/>
+    <license />
   </licenses>
   <mailingLists>
-    <mailingList/>
+    <mailingList />
   </mailingLists>
   <developers>
-    <developer/>
+    <developer />
   </developers>
   <contributors>
-    <contributor/>
+    <contributor />
   </contributors>
-  <issueManagement/>
+  <issueManagement />
   <!--
   <scm>
     <connection/>
@@ -45,7 +43,7 @@
     <url/>
   </scm>
   -->
-  <ciManagement/>
+  <ciManagement />
   <distributionManagement>
     <repository>
       <id>-</id>
@@ -64,6 +62,8 @@
     <!-- ***END temporary override of versions*** -->
 
     <essentials.version>4.6.0</essentials.version>
+
+    <spring.security.version>4.2.8.RELEASE</spring.security.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.5</taglibs.version>
     <xalan.version>2.7.2</xalan.version>
@@ -74,6 +74,7 @@
 
     <hippo.cms.locales>nl,de,fr,es,zh</hippo.cms.locales>
     <buildNumber>${maven.build.timestamp}</buildNumber>
+    <hst-springsec.version>1.1.3</hst-springsec.version>
   </properties>
 
   <repositories>
@@ -81,6 +82,15 @@
       <id>hippo</id>
       <name>Hippo maven 2 repository.</name>
       <url>https://maven.onehippo.com/maven2/</url>
+    </repository>
+    <repository>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </releases>
+      <id>hippo-forge</id>
+      <name>Hippo Bloomreach maven 2 repository</name>
+      <url>https://maven.onehippo.com/maven2-forge/</url>
     </repository>
   </repositories>
 
@@ -175,7 +185,7 @@
                     <versionRange>[0.0,)</versionRange>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore/>
+                    <ignore />
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -222,10 +232,6 @@
 
     <profile>
       <id>cargo.run</id>
-      <properties>
-        <!--Already defined in hippo-cms-project POM. Override here for project, if necessary-->
-        <!--<repo.bootstrap>true</repo.bootstrap>-->
-      </properties>
       <build>
         <plugins>
           <plugin>

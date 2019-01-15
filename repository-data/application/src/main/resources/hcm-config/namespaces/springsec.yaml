@@ -3,3 +3,4 @@ definitions:
     /hippo:namespaces/springsec:
       jcr:primaryType: hipposysedit:namespace
       jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e5b6b712-48b4-4924-ab27-b3a0034a538a

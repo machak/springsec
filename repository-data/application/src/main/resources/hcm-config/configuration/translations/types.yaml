@@ -1,0 +1,44 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/springsec:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        springsec:content: Content
+        springsec:date: Start date
+        springsec:enddate: End date
+        springsec:image: Image
+        springsec:introduction: Introduction
+        springsec:location: Location
+        springsec:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Evenement
+        springsec:content: Inhoud
+        springsec:date: Startdatum
+        springsec:enddate: Einddatum
+        springsec:image: Afbeelding
+        springsec:introduction: Introductie
+        springsec:location: Locatie
+        springsec:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Événement
+        springsec:content: Contenu
+        springsec:date: Date de début
+        springsec:enddate: Date de fin
+        springsec:image: Image
+        springsec:introduction: Introduction
+        springsec:location: Lieu
+        springsec:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        springsec:content: Inhalt
+        springsec:date: Startdatum
+        springsec:enddate: Enddatum
+        springsec:image: Abbildung
+        springsec:introduction: Einführung
+        springsec:location: Standort
+        springsec:title: Titel

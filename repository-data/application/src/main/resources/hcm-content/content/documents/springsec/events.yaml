@@ -1,0 +1,144 @@
+/content/documents/springsec/events:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 5241721a-bb0c-4877-8279-6307ac40571e
+  hippostd:foldertype: [new-events-document, new-events-folder]
+  hippotranslation:id: c8e64d43-1561-4104-b677-516de4362acf
+  hippotranslation:locale: en
+  /2019:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 1d495968-6dad-4548-a4e8-c49cea708b01
+    hippostd:foldertype: [new-events-document, new-events-folder]
+    hippotranslation:id: f89ab895-f432-4056-8457-1a6c81a063be
+    hippotranslation:locale: en
+    /01:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 539861eb-e866-4530-814c-e5d279e4e26c
+      hippostd:foldertype: [new-events-document, new-events-folder]
+      hippotranslation:id: 8f7fcd50-bd39-467c-9f24-29c687ddd67e
+      hippotranslation:locale: en
+      /breakfast:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b8f5eb45-7200-452a-b26e-3118a0dc60b8
+        hippo:name: Breakfast
+        /breakfast:
+          jcr:primaryType: springsec:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 000fae6a-adcf-4881-99e3-1bb46d0b1472
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:11:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: 2d1b4814-5ed5-44d7-9fe4-99e47bd7863f
+          hippotranslation:locale: en
+          springsec:date: 2013-11-12T08:00:00+01:00
+          springsec:documenttype: event
+          springsec:enddate: 2020-01-15T11:04:00+01:00
+          springsec:introduction: Start the day with a nice breakfast.
+          springsec:location: Room 101
+          springsec:title: Breakfast
+          /springsec:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Breakfast is served starting from 8:00 until 9:30.</p>
+
+                        </body>
+                        </html>
+          /springsec:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /introduction-speech:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 18e36c35-429d-4fee-b76e-eeabcbfc08bb
+        hippo:name: Introduction speech
+        /introduction-speech:
+          jcr:primaryType: springsec:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2a442728-64e3-4088-9cdc-5109868068a7
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:16:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: 41beee75-7ee6-43fd-96b3-2786917dc47e
+          hippotranslation:locale: en
+          springsec:date: 2013-11-12T10:00:00+01:00
+          springsec:documenttype: event
+          springsec:enddate: 2020-01-15T11:04:00+01:00
+          springsec:introduction: After breakfast there will be an introductory speech.
+          springsec:location: Room 400
+          springsec:title: Introduction speech
+          /springsec:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Speech will be about the workshop.</p>
+
+                        </body>
+                        </html>
+          /springsec:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 9f32434e-84e3-4150-a6f2-d89a67be2fb1
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /workshop:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7a29ec60-2689-48b2-aca2-49696c5c23eb
+        /workshop:
+          jcr:primaryType: springsec:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c848bc92-4097-4da8-b7db-54e30e0696cb
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:18:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: 16b663ad-cfb3-41f7-8368-1dd2d9020573
+          hippotranslation:locale: en
+          springsec:date: 2013-11-12T13:00:00+01:00
+          springsec:documenttype: event
+          springsec:enddate: 2020-01-15T11:04:00+01:00
+          springsec:introduction: Workshop starts at 1:00
+          springsec:location: Room 600
+          springsec:title: Workshop
+          /springsec:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+                        <strong>Everybody </strong>
+                        <p>can join the workshop and start practicing what they learned during the last
+                        week.</p>
+
+                        </body>
+                        </html>
+          /springsec:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d035387b-f9ce-49f6-bcb0-9ab6915a2d5f
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
