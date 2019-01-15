@@ -58,6 +58,7 @@
 
   <properties>
 
+    <hippo.forge.servlet-filter-decorators.version>1.0.1</hippo.forge.servlet-filter-decorators.version>
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
 
@@ -96,6 +97,16 @@
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.onehippo.forge.servlet-filter-decorators</groupId>
+        <artifactId>servlet-filter-decorators-hst</artifactId>
+        <version>${hippo.forge.servlet-filter-decorators.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.forge.servlet-filter-decorators</groupId>
+        <artifactId>servlet-filter-decorators-cms</artifactId>
+        <version>${hippo.forge.servlet-filter-decorators.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.onehippo.cms7</groupId>
         <artifactId>hippo-essentials-plugin-sdk-api</artifactId>

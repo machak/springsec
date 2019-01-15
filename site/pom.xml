@@ -11,6 +11,12 @@
   <description>springsec Site</description>
   <dependencies>
     <dependency>
+      <groupId>org.onehippo.forge.servlet-filter-decorators</groupId>
+      <artifactId>servlet-filter-decorators-hst</artifactId>
+    </dependency>
+
+
+    <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
     </dependency>
